@@ -18,7 +18,6 @@
     "start": "NODE_PATH=./src react-scripts start",
     "start:back": "REACT_APP_BACKEND_URL=https://jsonplaceholder.typicode.com NODE_PATH=./src react-scripts start",
     "build": "NODE_PATH=./src react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
