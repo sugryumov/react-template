@@ -16,8 +16,9 @@ class Network extends Instance {
   }
 }
 
-const { REACT_APP_BACKEND_URL } = process.env;
-const baseUrl = REACT_APP_BACKEND_URL || window.location.origin;
+// const { REACT_APP_BACKEND_URL } = process.env;
+// const baseUrl = REACT_APP_BACKEND_URL || window.location.origin;
+const baseUrl = 'https://jsonplaceholder.typicode.com';
 const network = new Network(baseUrl);
 
 export default network;
