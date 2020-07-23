@@ -25,10 +25,15 @@ function UsersContainer() {
   }));
 
   return (
-    <main className="users">
+    <>
       <Helmet title={'Users'} />
-      <UserItem users={users} loading={loading} error={error} />
-    </main>
+
+      <main className="users">
+        <div className="container">
+          <UserItem users={users} loading={loading} error={error} />
+        </div>
+      </main>
+    </>
   );
 }
 

@@ -25,10 +25,15 @@ function PhotosContainer() {
   }));
 
   return (
-    <main className="photos">
+    <>
       <Helmet title={'Photos'} />
-      <PhotoItem photos={photos} loading={loading} error={error} />
-    </main>
+
+      <main className="photos">
+        <div className="container">
+          <PhotoItem photos={photos} loading={loading} error={error} />
+        </div>
+      </main>
+    </>
   );
 }
 

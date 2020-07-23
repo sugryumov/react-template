@@ -1,15 +1,12 @@
 import React from 'react';
-import Navigation from 'common/components/Navigation';
+import Header from 'component/Header';
 import Routing from 'common/components/Routing';
 import './index.css';
 
 function App() {
   return (
     <>
-      <header className="header-app">
-        <Navigation />
-      </header>
-
+      <Header />
       <Routing />
     </>
   );
